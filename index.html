@@ -65,7 +65,7 @@
         Oblivio
       </h1>
       <p class="text-lg sm:text-l text-gray-600 mb-8 animate-fade-in delay-100">
-Oblivio is a simple Docker-based app to run Ollama local LLMs with an easy chat UI and quick model switching. It makes local AI hassle-free for everyone.
+Oblivio is a simple Docker-based app to run Ollama local LLMs with an easy chat UI and quick model switching. To use it, Ollama must be installed beforehand. It makes local AI hassle-free for everyone.
       </p>
 
       <div
@@ -73,10 +73,16 @@ Oblivio is a simple Docker-based app to run Ollama local LLMs with an easy chat 
       >
         <p class="text-sm text-gray-500 mb-2">Install with Docker:</p>
         <pre
-          class="text-green-400 text-sm bg-gray-950 p-2 rounded select-all overflow-x-auto"
-        >
-docker pull oblivio
+          class="text-indigo-300 text-sm bg-gray-950 p-2 rounded select-all overflow-x-auto"
+        > docker pull rgulersen/oblivio:latest
         </pre>
+        
+          <p class="text-sm text-gray-500 mb-2"> run:</p>
+        <pre
+          class="text-indigo-300 text-sm bg-gray-950 p-2 rounded select-all overflow-x-auto"
+        > docker run -p 3000:3000 rgulersen/oblivio
+        </pre>
+        
       </div>
 
       <div class="mt-8 animate-fade-in delay-300">
