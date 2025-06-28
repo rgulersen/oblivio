@@ -1,4 +1,4 @@
-# 👋 Hey there!
+# 🧬 Oblivio
 
 **Oblivio** is a **user-friendly UI tool** for running **large language models (LLMs)** locally with **Ollama** — a popular local AI platform.  
 It runs on **Docker**, making setup and management super straightforward.
